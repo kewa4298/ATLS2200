@@ -1,0 +1,71 @@
+html,body{
+    background-color: #f6f3E7;
+    font-family: Futura, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+    min-height: 5vh;
+    overflow: hidden;
+  }
+
+  /* inspiration from: https://www.w3schools.com/howto/howto_js_topnav.asp */
+ul a {
+    float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+ul a:hover {
+    background-color: #fff;
+    color: navy;
+}
+#app-section {
+    min-height: 80vh;
+    padding-left: 10%;
+}
+
+#app-section-title {
+    font-size: 4vh;
+    padding-top: 2%;
+}
+
+#app-section-paragraph {
+    font-size: 3vh;
+    padding-left: 2%;
+    max-width: 60%;
+}
+
+#app-section-iPhone {
+    float: right;
+    padding-right: 5%;
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: navy;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 10%;
+    margin: 5%;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: lightblue;
+    border: 0px;
+}
+
+.button-a {
+    font-family: Futura, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
